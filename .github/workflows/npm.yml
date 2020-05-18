@@ -16,12 +16,6 @@ jobs:
         node-version: '12.x'
     - name: Build
       run: pwsh build.ps1
-    - name: Publish if version has been updated
-      uses: pascalgn/npm-publish-action@1.2.0
+    - uses: JS-DevTools/npm-publish@v1
       with:
-        tag_name: "v%s"
-        tag_message: "v%s"
-        commit_pattern: "^Release (\\S+)"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        token: ${{ secrets.NPM_TOKEN }}
