@@ -1,6 +1,6 @@
 {
   "name": "@blessing-skin/admin-lte",
-  "version": "3.0.5",
+  "version": "3.1.0",
   "description": "Simplified and bundled AdminLTE.",
   "license": "MIT",
   "files": [
@@ -8,8 +8,9 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "admin-lte": "^3.0.5",
-    "cssnano": "^4.1.10",
-    "postcss-cli": "^7.1.1"
+    "admin-lte": "^3.1.0",
+    "cssnano": "^5.0.5",
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1"
   }
 }
