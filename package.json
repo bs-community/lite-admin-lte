@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "admin-lte": "^3.1.0",
-    "cssnano": "^5.0.5",
-    "postcss": "^8.3.0",
-    "postcss-cli": "^8.3.1"
+    "cssnano": "^5.0.17",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0"
   }
 }
