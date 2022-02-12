@@ -1,5 +1,5 @@
 if (!(Test-Path ./dart-sass)) {
-    Invoke-WebRequest 'https://github.com/sass/dart-sass/releases/download/1.26.5/dart-sass-1.26.5-linux-x64.tar.gz' -OutFile ./sass.tar.gz
+    Invoke-WebRequest 'https://github.com/sass/dart-sass/releases/download/1.49.7/dart-sass-1.49.7-linux-x64.tar.gz' -OutFile ./sass.tar.gz
     tar -zxf ./sass.tar.gz
 }
 
