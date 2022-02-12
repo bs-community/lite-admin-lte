@@ -10,7 +10,7 @@
     "bootstrap": "^4.6.0"
   },
   "devDependencies": {
-    "admin-lte": "^3.1.0",
+    "admin-lte": "^3.2.0",
     "cssnano": "^5.0.17",
     "postcss": "^8.4.6",
     "postcss-cli": "^9.1.0"
